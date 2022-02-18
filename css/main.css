@@ -5,9 +5,33 @@ html {
   font-family: 'Titillium Web', sans-serif;
 }
 
+/* line 2, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+#interactive-img {
+  width: 75%;
+  height: auto;
+}
+
 /* line 1, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 body {
   margin: 0;
+}
+
+/* line 5, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+.full-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* line 10, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+.two-page {
+  width: 100vw;
+  height: 200vh;
+}
+
+/* line 17, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+#hero-container {
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */

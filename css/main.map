@@ -10,9 +10,9 @@
 	"sourcesContent": [
 		"@import \r\n'base',\r\n'components',\r\n'layout';",
 		"// Variables\r\n// Primary Colours\r\n$white: hsl(0, 0%, 100%);\r\n$black: hsl(0, 0%, 0%);\r\n$dark-grey: hsl(0, 0%, 55%);\r\n$very-dark-grey: hsl(0, 0%, 41%);\r\n\r\n\r\n// Font weight\r\n\r\n\r\n\r\n// Typography\r\nhtml {\r\n    font-size: 15px;\r\n    font-family: 'Roboto', sans-serif;\r\n    font-family: 'Titillium Web', sans-serif;\r\n}",
-		"",
-		"body {\r\n    margin: 0;\r\n}"
+		"// IMG\r\n#interactive-img {\r\n    width: 75%;\r\n    height: auto;\r\n}",
+		"body {\r\n    margin: 0;\r\n}\r\n\r\n.full-page {\r\n    width: 100vw;\r\n    height: 100vh;\r\n}\r\n\r\n.two-page {\r\n    width: 100vw;\r\n    height: 200vh;\r\n}\r\n\r\n\r\n// Hero\r\n#hero-container {\r\n    background-image: url('../images/mobile/image-hero.jpg');\r\n    background-size: cover;\r\n}"
 	],
 	"names": [],
-	"mappings": ";ACaA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,2BAA2B;CAC3C;;;AEjBD,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;CACZ"
+	"mappings": ";ACaA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,2BAA2B;CAC3C;;;AChBD,AAAA,gBAAgB,CAAC;EACb,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACf;;;ACJD,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;CACZ;;;AAED,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB;;;AAED,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB;;;AAID,AAAA,eAAe,CAAC;EACZ,gBAAgB,EAAE,sCAAsC;EACxD,eAAe,EAAE,KAAK;CACzB"
 }

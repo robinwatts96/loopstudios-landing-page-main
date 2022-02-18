@@ -1,3 +1,20 @@
 body {
     margin: 0;
 }
+
+.full-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.two-page {
+    width: 100vw;
+    height: 200vh;
+}
+
+
+// Hero
+#hero-container {
+    background-image: url('../images/mobile/image-hero.jpg');
+    background-size: cover;
+}
