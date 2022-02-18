@@ -1,8 +1,9 @@
 // Variables
 // Primary Colours
-
-
-// Neutral Colours
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+$dark-grey: hsl(0, 0%, 55%);
+$very-dark-grey: hsl(0, 0%, 41%);
 
 
 // Font weight
@@ -10,3 +11,8 @@
 
 
 // Typography
+html {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}

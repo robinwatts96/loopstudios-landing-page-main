@@ -1,3 +1,10 @@
+/* line 14, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+html {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
 /* line 1, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 body {
   margin: 0;
