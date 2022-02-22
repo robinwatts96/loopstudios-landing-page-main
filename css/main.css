@@ -57,6 +57,24 @@ footer .loopstudios-title {
   margin: 1.5em 0;
 }
 
+@media all and (min-width: 1200px) {
+  /* line 77, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+  .h1-container {
+    border: 2px white solid;
+    width: 50%;
+    margin: 2em 0 0 2em;
+    font-size: 3.25em;
+  }
+  /* line 84, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+  .h1-container h1 {
+    letter-spacing: .1em;
+  }
+  /* line 88, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+  .br {
+    display: none;
+  }
+}
+
 /* line 3, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .hamburger,
 .hamburger-close {

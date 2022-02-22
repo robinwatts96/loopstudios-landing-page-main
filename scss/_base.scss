@@ -73,6 +73,20 @@ footer .loopstudios-title {
 
 // Media
 @media all and (min-width: 1200px) {
-    
+    // Hero
+    .h1-container {
+        border: 2px $white solid;
+        width: 50%;
+        margin: 2em 0 0 2em;
+        font-size: 3.25em;
+    }
+
+    .h1-container h1 {
+        letter-spacing: .1em;
+    }
+
+    .br {
+        display: none;
+    }
 
 }
