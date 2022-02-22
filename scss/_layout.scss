@@ -169,14 +169,36 @@ footer {
                             "title title title btn"
                             "deep-earth night-arcade soccer-team-vr the-grid"
                             "from-up-above pocket-borealis the-curiosity make-it-fisheye";
+        grid-gap: 2em 2em;
+        width: 80%;
+        height: 135vh;
+        max-width: 1150px;
+        box-sizing: border-box;
+        padding: 0 0 10em 0;
+        margin: 0 auto;
+        grid-template-rows: 100px minmax(225px, 450px) minmax(225px, 450px);
     }
 
     #creations-header {
         grid-area: title;
+        margin: 0;
+        text-align: left;
     }
 
     #see-all {
         grid-area: btn;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        justify-self: end;
+        text-align: center;
+        width: 10em;
+        height: 2.5em;
+    }
+
+    #see-all:hover {
+        background-color: black;
+        color: $white;
     }
 
     #deep-earth {

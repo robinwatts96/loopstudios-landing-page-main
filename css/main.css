@@ -166,6 +166,24 @@ footer .loopstudios-title {
   /* line 92, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
   .desktop-img {
     display: initial;
+    height: 100%;
+    width: auto;
+    z-index: 0;
+  }
+  /* line 99, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  .creation {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  /* line 106, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  .creation-img-text {
+    position: absolute;
+    font-weight: lighter;
+    z-index: 1;
+    bottom: 0;
+    left: 1em;
   }
 }
 
@@ -335,44 +353,66 @@ footer {
   #creations-container {
     display: grid;
     grid-template-areas: "title title title btn" "deep-earth night-arcade soccer-team-vr the-grid" "from-up-above pocket-borealis the-curiosity make-it-fisheye";
-  }
-  /* line 174, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
-  #creations-header {
-    grid-area: title;
-  }
-  /* line 178, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
-  #see-all {
-    grid-area: btn;
+    grid-gap: 2em 2em;
+    width: 80%;
+    height: 135vh;
+    max-width: 1150px;
+    box-sizing: border-box;
+    padding: 0 0 10em 0;
+    margin: 0 auto;
+    grid-template-rows: 100px minmax(225px, 450px) minmax(225px, 450px);
   }
   /* line 182, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #creations-header {
+    grid-area: title;
+    margin: 0;
+    text-align: left;
+  }
+  /* line 188, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #see-all {
+    grid-area: btn;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    justify-self: end;
+    text-align: center;
+    width: 10em;
+    height: 2.5em;
+  }
+  /* line 199, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #see-all:hover {
+    background-color: black;
+    color: white;
+  }
+  /* line 204, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #deep-earth {
     grid-area: deep-earth;
   }
-  /* line 185, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  /* line 207, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #night-arcade {
     grid-area: night-arcade;
   }
-  /* line 188, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  /* line 210, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #soccer-team-vr {
     grid-area: soccer-team-vr;
   }
-  /* line 191, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  /* line 213, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #the-grid {
     grid-area: the-grid;
   }
-  /* line 194, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  /* line 216, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #from-up-above {
     grid-area: from-up-above;
   }
-  /* line 197, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  /* line 219, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #pocket-borealis {
     grid-area: pocket-borealis;
   }
-  /* line 200, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  /* line 222, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #the-curiosity {
     grid-area: the-curiosity;
   }
-  /* line 203, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  /* line 225, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #make-it-fisheye {
     grid-area: make-it-fisheye;
   }

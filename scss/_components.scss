@@ -91,5 +91,23 @@
 
     .desktop-img {
         display: initial;
+        height: 100%;
+        width: auto;
+        z-index: 0;
+    }
+
+    .creation {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .creation-img-text {
+        position: absolute;
+        font-weight: lighter;
+        z-index: 1;
+        bottom: 0;
+        left: 1em;
     }
 }
