@@ -136,4 +136,27 @@ footer {
     #hero-container {
         background-image: url('../images/desktop/image-hero.jpg');
     }
+
+
+    // VR
+    #vr-container {
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .vr-body-text {
+        text-align: left;
+        background-color: $white;
+        // border: 1px solid black;
+        width: 40%;
+        box-sizing: border-box;
+        padding: 2em;
+        z-index: 1;
+        position: relative;
+        right: 10em;
+        top: 6.5em;
+    }
 }
