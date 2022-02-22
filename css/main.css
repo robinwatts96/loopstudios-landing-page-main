@@ -5,14 +5,14 @@ html {
   font-family: 'Titillium Web', sans-serif;
 }
 
-/* line 20, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+/* line 21, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
 .loopstudios-title {
   display: inline-block;
   color: white;
   margin-left: 1em;
 }
 
-/* line 26, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+/* line 29, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
 .h1-container {
   border: 2px white solid;
   width: 90%;
@@ -21,13 +21,27 @@ html {
   font-size: 2em;
 }
 
-/* line 34, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+/* line 37, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
 .h1-container h1 {
   font-weight: lighter;
   text-transform: uppercase;
   line-height: 1;
   margin: 0;
   padding: .5em;
+}
+
+/* line 46, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+.vr-body-text h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.25em;
+  line-height: 1;
+  letter-spacing: .1em;
+}
+
+/* line 54, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+.vr-body-text p {
+  line-height: 2;
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
@@ -44,18 +58,19 @@ html {
 
 /* line 12, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 #interactive-img {
-  width: 75%;
+  width: 90%;
   height: auto;
+  margin: 7.5em 0 2.5em 0;
 }
 
-/* line 17, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 18, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation img {
   height: auto;
   width: 100%;
   z-index: 0;
 }
 
-/* line 23, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 24, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation-img-text {
   position: absolute;
   color: white;
@@ -64,7 +79,7 @@ html {
   left: 0;
 }
 
-/* line 31, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 32, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation {
   position: relative;
   height: 7.5%;
@@ -133,6 +148,20 @@ nav {
 #hero-container {
   background-image: url("../images/mobile/image-hero.jpg");
   background-size: cover;
+}
+
+/* line 64, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+#vr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 69, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+.vr-body-text {
+  width: 80%;
+  text-align: center;
+  color: #8c8c8c;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -17,12 +17,15 @@ html {
     font-family: 'Titillium Web', sans-serif;
 }
 
+// Nav
 .loopstudios-title {
     display: inline-block;
     color: $white;
     margin-left: 1em;
 }
 
+
+// Hero
 .h1-container {
     border: 2px $white solid;
     width: 90%;
@@ -37,4 +40,17 @@ html {
     line-height: 1;
     margin: 0;
     padding: .5em;
+}
+
+// VR
+.vr-body-text h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.25em;
+    line-height: 1;
+    letter-spacing: .1em;
+}
+
+.vr-body-text p {
+    line-height: 2;
 }
