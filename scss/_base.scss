@@ -43,7 +43,8 @@ html {
 }
 
 // VR
-.vr-body-text h2 {
+.vr-body-text h2,
+#creations-header {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 2.25em;
@@ -53,4 +54,12 @@ html {
 
 .vr-body-text p {
     line-height: 2;
+}
+
+
+// Our Creations
+#creations-header {
+    color: $dark-grey;
+    text-align: center;
+    margin: 0 0 1.5em 0;
 }

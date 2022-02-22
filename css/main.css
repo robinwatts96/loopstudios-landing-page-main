@@ -31,7 +31,8 @@ html {
 }
 
 /* line 46, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
-.vr-body-text h2 {
+.vr-body-text h2,
+#creations-header {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 2.25em;
@@ -39,52 +40,61 @@ html {
   letter-spacing: .1em;
 }
 
-/* line 54, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+/* line 55, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
 .vr-body-text p {
   line-height: 2;
 }
 
-/* line 2, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 61, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+#creations-header {
+  color: #8c8c8c;
+  text-align: center;
+  margin: 0 0 1.5em 0;
+}
+
+/* line 3, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .hamburger,
 .hamburger-close {
   display: inline-block;
   margin-right: 1em;
 }
 
-/* line 8, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 9, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .hamburger-close {
   display: none;
 }
 
-/* line 12, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 14, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 #interactive-img {
   width: 90%;
   height: auto;
   margin: 7.5em 0 2.5em 0;
 }
 
-/* line 18, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 23, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation img {
   height: auto;
   width: 100%;
   z-index: 0;
 }
 
-/* line 24, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 29, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation-img-text {
   position: absolute;
   color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
   z-index: 1;
   bottom: 0;
-  left: 0;
+  left: 1em;
 }
 
-/* line 32, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 39, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation {
   position: relative;
-  height: 7.5%;
+  height: 8%;
   width: 90%;
-  margin: 0 auto 1.5em auto;
+  margin: 0 auto 2em auto;
 }
 
 /* line 1, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
