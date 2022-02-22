@@ -159,4 +159,48 @@ footer {
         right: 10em;
         top: 6.5em;
     }
+
+
+
+    // Our Creations
+    #creations-container {
+        display: grid;
+        grid-template-areas: 
+                            "title title title btn"
+                            "deep-earth night-arcade soccer-team-vr the-grid"
+                            "from-up-above pocket-borealis the-curiosity make-it-fisheye";
+    }
+
+    #creations-header {
+        grid-area: title;
+    }
+
+    #see-all {
+        grid-area: btn;
+    }
+
+    #deep-earth {
+        grid-area: deep-earth;
+    }
+    #night-arcade {
+        grid-area: night-arcade;
+    }
+    #soccer-team-vr {
+        grid-area: soccer-team-vr;
+    }
+    #the-grid {
+        grid-area: the-grid;
+    }
+    #from-up-above {
+        grid-area: from-up-above;
+    }
+    #pocket-borealis {
+        grid-area: pocket-borealis;
+    }
+    #the-curiosity {
+        grid-area:the-curiosity ;
+    }
+    #make-it-fisheye {
+        grid-area: make-it-fisheye;
+    }
 }

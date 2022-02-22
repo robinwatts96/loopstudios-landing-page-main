@@ -106,6 +106,11 @@ footer .loopstudios-title {
 }
 
 /* line 29, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+.desktop-img {
+  display: none;
+}
+
+/* line 33, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation-img-text {
   position: absolute;
   color: white;
@@ -116,7 +121,7 @@ footer .loopstudios-title {
   left: 1em;
 }
 
-/* line 39, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 43, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation {
   position: relative;
   height: 8%;
@@ -124,12 +129,12 @@ footer .loopstudios-title {
   margin: 0 auto 2em auto;
 }
 
-/* line 48, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 52, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .icon {
   margin-right: 1em;
 }
 
-/* line 54, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 58, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 #see-all {
   background-color: white;
   width: 50%;
@@ -143,16 +148,24 @@ footer .loopstudios-title {
 }
 
 @media all and (min-width: 1200px) {
-  /* line 71, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  /* line 75, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
   .hamburger {
     display: none;
   }
-  /* line 77, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  /* line 80, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
   #interactive-img {
     width: 50%;
     z-index: 0;
     margin-top: 0;
     margin-left: 10em;
+  }
+  /* line 88, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  .mobile-img {
+    display: none;
+  }
+  /* line 92, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  .desktop-img {
+    display: initial;
   }
 }
 
@@ -317,6 +330,51 @@ footer {
     position: relative;
     right: 10em;
     top: 6.5em;
+  }
+  /* line 166, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #creations-container {
+    display: grid;
+    grid-template-areas: "title title title btn" "deep-earth night-arcade soccer-team-vr the-grid" "from-up-above pocket-borealis the-curiosity make-it-fisheye";
+  }
+  /* line 174, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #creations-header {
+    grid-area: title;
+  }
+  /* line 178, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #see-all {
+    grid-area: btn;
+  }
+  /* line 182, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #deep-earth {
+    grid-area: deep-earth;
+  }
+  /* line 185, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #night-arcade {
+    grid-area: night-arcade;
+  }
+  /* line 188, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #soccer-team-vr {
+    grid-area: soccer-team-vr;
+  }
+  /* line 191, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #the-grid {
+    grid-area: the-grid;
+  }
+  /* line 194, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #from-up-above {
+    grid-area: from-up-above;
+  }
+  /* line 197, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #pocket-borealis {
+    grid-area: pocket-borealis;
+  }
+  /* line 200, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #the-curiosity {
+    grid-area: the-curiosity;
+  }
+  /* line 203, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #make-it-fisheye {
+    grid-area: make-it-fisheye;
   }
 }
 

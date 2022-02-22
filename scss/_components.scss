@@ -26,6 +26,10 @@
     z-index: 0;
 }
 
+.desktop-img {
+    display: none;
+}
+
 .creation-img-text {
     position: absolute;
     color: $white;
@@ -73,11 +77,19 @@
     }
 
     // VR
-    
     #interactive-img {
         width: 50%;
         z-index: 0;
         margin-top: 0;
         margin-left: 10em;
+    }
+
+    // Our Creations
+    .mobile-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: initial;
     }
 }
