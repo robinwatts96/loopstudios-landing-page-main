@@ -13,25 +13,31 @@ html {
 }
 
 /* line 2, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
-.hamburger {
+.hamburger,
+.hamburger-close {
   display: inline-block;
   margin-right: 1em;
 }
 
-/* line 7, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 8, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+.hamburger-close {
+  display: none;
+}
+
+/* line 12, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 #interactive-img {
   width: 75%;
   height: auto;
 }
 
-/* line 12, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 17, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation img {
   height: auto;
   width: 100%;
   z-index: 0;
 }
 
-/* line 18, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 23, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation-img-text {
   position: absolute;
   color: white;
@@ -40,7 +46,7 @@ html {
   left: 0;
 }
 
-/* line 26, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+/* line 31, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .creation {
   position: relative;
   height: 7.5%;
@@ -83,13 +89,30 @@ nav {
 /* line 33, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .hamburger-menu {
   display: none;
-  background-color: black;
-  color: white;
-  width: 100vw;
   position: absolute;
+  list-style-type: none;
+  background-color: black;
+  font-size: 2em;
+  font-weight: lighter;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 1em;
+  padding: 4em 1em;
 }
 
-/* line 44, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 47, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+.hamburger-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 52, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+.hamburger-menu li {
+  padding-bottom: .5em;
+}
+
+/* line 58, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 #hero-container {
   background-image: url("../images/mobile/image-hero.jpg");
   background-size: cover;

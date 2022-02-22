@@ -1,7 +1,12 @@
 // IMG
-.hamburger {
+.hamburger,
+.hamburger-close {
     display: inline-block;
     margin-right: 1em;
+}
+
+.hamburger-close {
+    display: none;
 }
 
 #interactive-img {
