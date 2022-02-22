@@ -120,6 +120,13 @@ footer .loopstudios-title {
   font-family: 'Titillium Web', sans-serif;
 }
 
+@media all and (min-width: 1200px) {
+  /* line 71, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  .hamburger {
+    display: none;
+  }
+}
+
 /* line 1, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 body,
 html {
@@ -232,6 +239,36 @@ footer {
 .footer-menu {
   padding: 0;
   margin: 0 0 1em 0;
+}
+
+@media all and (min-width: 1200px) {
+  /* line 112, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  nav .loopstudios-title {
+    display: inline-block;
+    margin-left: 4em;
+    margin-top: 3em;
+  }
+  /* line 118, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  .hamburger-menu {
+    display: inline-block;
+    position: static;
+    background-color: transparent;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: right;
+    margin-right: 4em;
+    margin-top: 3em;
+    padding: 0;
+  }
+  /* line 130, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  .hamburger-menu li {
+    display: inline;
+    padding-right: 2em;
+  }
+  /* line 136, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  #hero-container {
+    background-image: url("../images/desktop/image-hero.jpg");
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
