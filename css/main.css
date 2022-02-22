@@ -52,6 +52,11 @@ html {
   margin: 0 0 1.5em 0;
 }
 
+/* line 69, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+footer .loopstudios-title {
+  margin: 1.5em 0;
+}
+
 /* line 3, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 .hamburger,
 .hamburger-close {
@@ -98,6 +103,11 @@ html {
 }
 
 /* line 48, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+.icon {
+  margin-right: 1em;
+}
+
+/* line 54, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
 #see-all {
   background-color: white;
   width: 50%;
@@ -121,33 +131,32 @@ html {
   overflow-x: hidden;
 }
 
-/* line 13, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 12, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .full-page {
   width: 100%;
   height: 100vh;
 }
 
-/* line 18, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 17, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .two-page {
   width: 100%;
   height: 175vh;
-  border: 1px blue solid;
 }
 
-/* line 24, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 22, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .half-page {
   height: 50vh;
   width: 100%;
 }
 
-/* line 30, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 28, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 37, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 34, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .hamburger-menu {
   display: none;
   position: absolute;
@@ -162,42 +171,67 @@ nav {
   padding: 4em 1em 12em 1em;
 }
 
-/* line 51, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 48, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .hamburger-menu li a {
   color: white;
   text-decoration: none;
 }
 
-/* line 56, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 53, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .hamburger-menu li {
   padding-bottom: .5em;
 }
 
-/* line 62, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 59, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 #hero-container {
   background-image: url("../images/mobile/image-hero.jpg");
   background-size: cover;
 }
 
-/* line 69, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 66, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 #vr-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 74, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 71, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 .vr-body-text {
   width: 80%;
   text-align: center;
   color: #8c8c8c;
 }
 
-/* line 82, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+/* line 79, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
 #creations-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* line 87, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 95, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+.footer-menu li a,
+.footer-menu li {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  padding: .5em 0;
+}
+
+/* line 104, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+.footer-menu {
+  padding: 0;
+  margin: 0 0 1em 0;
 }
 
 /*# sourceMappingURL=main.css.map */
