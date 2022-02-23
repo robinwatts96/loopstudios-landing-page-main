@@ -95,7 +95,15 @@ footer .loopstudios-title {
     }
 
 
-    // Our Creations
+    // Footer
+    footer .loopstudios-title {
+        grid-area: title;
+        margin: 0;
+    }
 
-
+    .footer-text {
+        grid-area: text;
+        justify-self: end;
+        margin: 0;
+    }
 }

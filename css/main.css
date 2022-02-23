@@ -77,6 +77,17 @@ footer .loopstudios-title {
   .vr-body-text h2 {
     font-size: 3em;
   }
+  /* line 99, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+  footer .loopstudios-title {
+    grid-area: title;
+    margin: 0;
+  }
+  /* line 104, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_base.scss */
+  .footer-text {
+    grid-area: text;
+    justify-self: end;
+    margin: 0;
+  }
 }
 
 /* line 3, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
@@ -184,6 +195,11 @@ footer .loopstudios-title {
     z-index: 1;
     bottom: 0;
     left: 1em;
+  }
+  /* line 115, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_components.scss */
+  .icon-container {
+    grid-area: icons;
+    justify-self: end;
   }
 }
 
@@ -415,6 +431,32 @@ footer {
   /* line 225, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
   #make-it-fisheye {
     grid-area: make-it-fisheye;
+  }
+  /* line 231, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  .half-page {
+    height: 15em;
+  }
+  /* line 235, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  footer {
+    display: grid;
+    height: 100%;
+    grid-template-areas: "title . icons" "li . text";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    box-sizing: border-box;
+    padding: 2.5em 5em;
+  }
+  /* line 247, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  .footer-menu li {
+    display: inline;
+    margin-right: 1em;
+    padding: 0;
+  }
+  /* line 253, ../../../OneDrive/Documents/GitHub/loopstudios-landing-page-main/scss/_layout.scss */
+  .footer-menu {
+    grid-area: li;
+    margin: 0;
+    padding: 0;
   }
 }
 
